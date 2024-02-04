@@ -13,7 +13,7 @@ public class FileReaderTest {
     @Test
     public void testReadFile() throws IOException {
         // テスト用の一時ファイルを作成
-        Path tempFile = Files.createTempFile("test-", ".txt");
+        Path tempFile = Files.createTempFile("試験-", ".txt");
         Files.write(tempFile, "こんにちは、世界！".getBytes());
 
         // FileReaderクラスのreadFileメソッドを使用してファイルの内容を読み取る
